@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 8px 24px;
+  border-radius: 8px;
+  font-weight: 700;
+  border: none;
+  font-size: 16px;
+}
+
+section {
+  padding: 0 12.5%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HERO */
+
+.hero-section {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.header {
+  display: flex;
+  padding: 24px 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f9faf8;
+  margin-right: auto;
+}
+
+.header ul {
+  display: flex;
+  gap: 24px;
+}
+
+.header a,
+.hero-subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-content {
+  padding: 128px 0;
+  display: flex;
+  gap: 24px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-subtext {
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  margin-bottom: 8px;
+}
+
+.hero-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(128, 128, 138);
+}
+
+button.primary {
+  background-color: #3882f6;
+  color: white;
+}
+
+/* INFO */
+
+/* QUOTE */
+
+/* CALL TO ACTION */
+
+/* FOOTER */
