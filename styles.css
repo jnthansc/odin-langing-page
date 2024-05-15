@@ -125,6 +125,29 @@ h2 {
 
 /* QUOTE */
 
+.quote-section {
+  background-color: #e5e7eb;
+}
+
+.quote-container {
+  width: 830px;
+  margin: 0 auto;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2927;
+  margin-bottom: 8px;
+}
+
+.author {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: end;
+}
+
 /* CALL TO ACTION */
 
 /* FOOTER */
